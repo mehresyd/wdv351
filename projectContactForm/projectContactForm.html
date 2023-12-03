@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta keywords="Savanna, coffee house, cafe, coffee, contact, information">
+    <meta description="A website featuring savanna's coffee house contact information.">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Savanna's Coffee</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script>
+        function validateForm() {
+
+            let firstName = document.querySelector("#firstName").value;
+            let lastName = document.querySelector("#lastName").value;
+
+            let names = /^[a-zA-Z ]*$/;
+            if (!names.test(firstName) || !names.test(lastName)) {
+                alert("Error: First and last names can only contain letters and spaces.");
+                return false;
+            }
+
+            let comment = document.querySelector("#comment").value;
+            if (comment.trim().split(/\s+/).length > 100) {
+                alert("Error: Your comment exceeds the maximum character count of 100.");
+                return false;
+            }
+
+            let recaptcha = document.querySelector(".g-recaptcha-response").value;
+            if (recaptcha === "") {
+                alert("Error: Please complete the reCAPTCHA.");
+               return false;
+            }
+
+            return true;
+        }
+
+
+
+    </script>
+
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">Savanna's</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projectContactForm.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="row">
+            <div class="section1">
+                <h2>Contact Us</h2>
+                <div class="paragraphs">
+                    <p>Offering both rejuvenation and reprieve from bustling MSU's campus life, Savanna's Coffee House
+                        is
+                        here
+                        to welcome you to our stylish funky yet chic designed cafe right in the heart of MSU.</p>
+                    <p>We want you to enjoy every experience Savanna's Coffee House has to offer. If you would like to
+                        discuss a
+                        function, make a booking or just have a question, fill in the form below and we will be in touch
+                        within
+                        24 hours.</p>
+                    <p>Reservations can also be made if you call the cafe!</p>
+                </div>
+                <div class="contact_us">
+                    <form method="post" action="formHandler.php" name="contactForm" onsubmit="return validateForm();">
+                        <fieldset>
+                            <div class="flex-form">
+                                <label for="firstName" class="required">First Name</label>
+                                <input type="text" name="firstName" id="firstName" required>
+                            </div>
+                            <div class="flex-form">
+                                <label for="lastName" class="required">Last Name</label>
+                                <input type="text" name="lastName" id="lastName" required>
+                            </div>
+                            <div class="flex-form">
+                                <label for="email" class="required">E-mail</label>
+                                <input type="email" name="email" id="email" required>
+                            </div>
+                            <div class="flex-form">
+                                <label for="mobile">Mobile</label>
+                                <input type="text" name="mobile" id="mobile" placeholder="515-123-4567">
+                            </div>
+                            <div class="flex-form">
+                                <label for="selectSubject" class="required">Subject:</label>
+                                <select name="selectSubject" required>
+                                    <option value="">Please select reason for contact</option>
+                                    <option value="menu items">menu items</option>
+                                    <option value="feedback">feedback</option>
+                                    <option value="opportunities">opportunities</option>
+                                </select>
+                            </div>
+                            <div class="flex-form">
+                                <label for="message" class="comments">Comments:</label>
+                                <textarea name="comment" id="comment"></textarea>
+                            </div>
+                            <div class="g-recaptcha" data-sitekey="6Ley6y8lAAAAAM4GzBF_nlmAH77lxnkvtu3ct_K8"></div>
+                        </fieldset>
+                        <div class="flex-buttons">
+                            <input type="submit" name="submit" value="Submit">
+                            <input type="reset" value="Reset">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div id="sidebar">
+                <h5>Savanna's</h5>
+                <p>604 24th Street St. Paul, Minnesota</p>
+                <h5>Opening hours:</h5>
+                <ul>
+                    <li>Sunday: 7:00am - 9:00pm</li>
+                    <li>Monday - Thursday: 6:00am - 10:00pm</li>
+                    <li>Friday: 6:00am - 11:00pm</li>
+                    <li>Saturday: 6:30am - 11:00pm</li>
+                </ul>
+                <div class="functionline">
+                    <p>Booking & Function enquiries</p>
+                </div>
+                <p>Call us at (702) 971-1154</p>
+            </div>
+            <!--closing sidebar-->
+        </div>
+        <!--closing row-->
+        <hr>
+        <div class="end">
+            <h3>Stop by Savanna's Coffee House Today and be one of the first to hear about our special offers and
+                events!</h3>
+            <a href="#">Subscribe</a>
+            <div class="gotop">
+                <a href="#top">Go to Top</a>
+            </div>
+        </div>
+        <!--closing end section-->
+
+        <div class="lower-content">
+            <h2>Savanna's Coffee</h2>
+            <br>
+            <h5>702-971-1154 | 604 24th Street St.Paul, Minnesota</h5><br>
+            <div class="socials">
+                <a href="#"><img src="images/facebook.png" height="60px" alt="facebook logo link">
+                    <a href="#"><img src="images/instagram.png" height="58px" alt="instagram logo link">
+            </div>
+        </div>
+        <footer>
+            <p>&copy Savanna's Coffee House 2023</p>
+        </footer>
+    </div>
+    <!--closing container-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

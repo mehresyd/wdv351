@@ -1,0 +1,1178 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&family=Roboto+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+  max-width: 100%;
+}
+
+header {
+  padding: 10px 5px;
+}
+
+nav {
+  text-transform: uppercase;
+  font-family: barlow, sans-serif;
+}
+
+h2 {
+  color: #d4b666;
+  text-transform: uppercase;
+  font-family: barlow, sans-serif;
+  font-weight: 300;
+  font-size: 3em;
+  margin-top: -20px;
+}
+
+main p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1em;
+  padding-top: 0.5em;
+}
+
+main a {
+  text-decoration: underline;
+  color: #d4b666;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+}
+
+main a:hover {
+  color: #0d360d;
+}
+
+hr {
+  background-color: #d4b666;
+  max-width: 40%;
+  margin-left: 30%;
+}
+
+.end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 3%;
+  padding-bottom: 5%;
+}
+
+.end h3 {
+  color: #d4b666;
+  font-size: 1.2em;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 0.2%;
+}
+
+.end a:hover {
+  color: #cab200;
+}
+
+.end a {
+  text-decoration: underline;
+  color: #d4b666;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  margin-top: 2%;
+}
+
+.lower-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 1%;
+}
+
+.lower-content h2 {
+  font-size: 50px;
+  color: #d4b666;
+  text-transform: uppercase;
+  font-family: barlow, sans-serif;
+}
+
+.lower-content h5 {
+  font-size: 15px;
+  color: #d4b666;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.socials {
+  display: inline-block;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 7%;
+}
+
+.heading p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.1em;
+}
+
+.section1 {
+  padding-top: 5%;
+  padding-left: 20%;
+  padding-bottom: 5%;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section1 h2 {
+  color: #d4b666;
+  font-family: barlow, sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 3em;
+  margin-left: -1%;
+}
+
+.section p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.paragraphs {
+  max-width: 63%;
+  margin-left: -1%;
+  margin-bottom: 3%;
+  margin-top: 5%;
+}
+
+#sidebar {
+  padding-bottom: 30%;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 11%;
+  margin-left: -17%;
+  line-height: 40px;
+}
+
+#sidebar ul {
+  list-style-type: none;
+}
+
+.functionline {
+  color: #d4b666;
+  font-weight: 400;
+  font-size: 1.1em;
+  margin-top: 15px;
+  margin-bottom: -20px;
+}
+
+.required::after {
+  content: " *";
+  color: black;
+  font-size: 20px;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 5%;
+}
+
+input[type=text],
+input[type=email],
+textarea,
+select {
+  min-width: 600px;
+  margin: -2px 0 10px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+input[type=submit],
+input[type=reset] {
+  padding: 5px 30px;
+  border: 1px solid #d4b666;
+  border-radius: 5px;
+  background-color: white;
+  color: #d4b666;
+  margin-top: 15px;
+}
+
+.comments {
+  margin-top: 15px;
+}
+
+.contact_us p {
+  padding-top: 20px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.eventlink a {
+  color: #d4b666;
+  text-transform: none;
+  text-decoration: none;
+  letter-spacing: 0;
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+.eventlink a:hover {
+  text-decoration: none;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 100%;
+  color: #848484;
+  background-color: black;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  margin-top: 5%;
+}
+
+/*Start of form confirmation page css styling*/
+.confirmationPage * {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.confirmationPage .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+  max-width: 1000px;
+  margin-top: 100px;
+  border: 1px solid white;
+  -webkit-box-shadow: 3px 5px 8px 3px #dedede;
+          box-shadow: 3px 5px 8px 3px #dedede;
+  padding: 50px 30px;
+  margin-bottom: 10%;
+}
+
+.confirmationPage .nav-logo {
+  margin-left: 60px;
+  margin-top: 23px;
+}
+
+.confirmationPage .nav-form {
+  margin-left: 15px;
+  margin-top: 23px;
+}
+
+.confirmationPage .section2 h3 {
+  font-family: barlow, sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  color: #d4b666;
+  text-align: center;
+}
+
+.confirmationPage .section2 .paragraphs2 {
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px 30px;
+  width: 700px;
+  margin-lefT: 120px;
+}
+
+.confirmationPage .section2 a {
+  color: #b19101;
+  text-decoration: none;
+}
+
+.confirmationPage .section2 a:hover {
+  color: #d9b92c;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.confirmationPage .section2 .bottom {
+  margin-top: 30px;
+}
+
+/*start of media queries*/
+@media only screen and (min-width: 400px) {
+  body,
+  html {
+    margin: 0;
+    padding: 0;
+  }
+  .section1 {
+    margin-left: 25%;
+  }
+  .section1 h2 {
+    margin-top: 20px;
+  }
+  .section1 .paragraphs {
+    width: 600px;
+  }
+  nav {
+    margin-left: 5%;
+  }
+  input[type=text],
+  input[type=email],
+  textarea,
+  select {
+    min-width: 390px;
+  }
+  #sidebar {
+    margin-left: 8%;
+    margin-bottom: -15%;
+  }
+  .end {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  .lower-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  hr {
+    margin-left: 30%;
+  }
+  footer {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .confirmationPage .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: auto;
+    max-width: 400px;
+    margin-top: 100px;
+    border: 1px solid white;
+    -webkit-box-shadow: 3px 5px 8px 3px #dedede;
+            box-shadow: 3px 5px 8px 3px #dedede;
+    padding: 50px 30px;
+    margin-bottom: 15%;
+    margin-top: 13%;
+  }
+  .confirmationPage .section2 {
+    width: 400px;
+  }
+  .confirmationPage .section2 h3 {
+    font-family: barlow, sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #d4b666;
+    text-align: center;
+    margin-right: 17%;
+  }
+  .confirmationPage .section2 .paragraphs2 {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px 30px;
+    width: 400px;
+    margin-left: -8%;
+  }
+  .confirmationPage .section2 a {
+    color: #b19101;
+    text-decoration: none;
+  }
+  .confirmationPage .section2 a:hover {
+    color: #d9b92c;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  .confirmationPage .section2 .bottom {
+    margin-top: 30px;
+  }
+  a.navbar-brand.nav-logo {
+    margin-left: 43px;
+  }
+  ul.navbar-nav.mr-auto.nav-form {
+    margin-left: 43px;
+  }
+  button.navbar-toggler {
+    margin-right: 35px;
+    margin-top: 25px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  body,
+  html {
+    margin: 0;
+    padding: 0;
+  }
+  .section1 {
+    margin-left: 25%;
+  }
+  .section1 h2 {
+    margin-top: 20px;
+  }
+  .section1 .paragraphs {
+    width: 700px;
+  }
+  nav {
+    margin-left: 7%;
+  }
+  input[type=text],
+  input[type=email],
+  textarea,
+  select {
+    min-width: 470px;
+  }
+  #sidebar {
+    margin-left: 9%;
+    margin-bottom: -15%;
+  }
+  .end {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  .lower-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  hr {
+    margin-left: 30%;
+  }
+  footer {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .confirmationPage .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: auto;
+    max-width: 500px;
+    margin-top: 100px;
+    border: 1px solid white;
+    -webkit-box-shadow: 3px 5px 8px 3px #dedede;
+            box-shadow: 3px 5px 8px 3px #dedede;
+    padding: 50px 30px;
+    margin-bottom: 15%;
+    margin-top: 13%;
+  }
+  .confirmationPage .section2 {
+    width: 500px;
+  }
+  .confirmationPage .section2 h3 {
+    font-family: barlow, sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #d4b666;
+    text-align: center;
+    margin-right: 13%;
+  }
+  .confirmationPage .section2 .paragraphs2 {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px 30px;
+    width: 450px;
+    margin-left: -2%;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  body,
+  html {
+    margin: 0;
+    padding: 0;
+  }
+  .section1 {
+    margin-left: 10%;
+  }
+  .section1 h2 {
+    margin-top: 20px;
+  }
+  .section1 .paragraphs {
+    width: 750px;
+  }
+  nav {
+    margin-left: 7%;
+  }
+  input[type=text],
+  input[type=email],
+  textarea,
+  select {
+    min-width: 520px;
+  }
+  #sidebar {
+    margin-left: 14%;
+    margin-bottom: -15%;
+  }
+  .end {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  .lower-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  hr {
+    margin-left: 30%;
+  }
+  footer {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .confirmationPage .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: auto;
+    max-width: 700px;
+    margin-top: 100px;
+    border: 1px solid white;
+    -webkit-box-shadow: 3px 5px 8px 3px #dedede;
+            box-shadow: 3px 5px 8px 3px #dedede;
+    padding: 50px 30px;
+    margin-bottom: 15%;
+    margin-top: 13%;
+  }
+  .confirmationPage .section2 {
+    width: 700px;
+  }
+  .confirmationPage .section2 h3 {
+    font-family: barlow, sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #d4b666;
+    text-align: center;
+    margin-right: 11%;
+  }
+  .confirmationPage .section2 .paragraphs2 {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px 30px;
+    width: 650px;
+    margin-left: -1%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  body,
+  html {
+    margin: 0;
+    padding: 0;
+  }
+  .section1 {
+    margin-left: -12%;
+  }
+  .section1 h2 {
+    margin-top: 20px;
+  }
+  .section1 .paragraphs {
+    width: 900px;
+  }
+  nav {
+    margin-left: 2%;
+  }
+  input[type=text],
+  input[type=email],
+  textarea,
+  select {
+    min-width: 630px;
+  }
+  #sidebar {
+    margin: 0;
+    margin-top: -930px;
+    margin-left: 78%;
+  }
+  .end {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    margin-bottom: 2%;
+  }
+  .lower-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  hr {
+    margin-left: 30%;
+  }
+  footer {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .confirmationPage .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: auto;
+    max-width: 800px;
+    margin-top: 100px;
+    border: 1px solid white;
+    -webkit-box-shadow: 3px 5px 8px 3px #dedede;
+            box-shadow: 3px 5px 8px 3px #dedede;
+    padding: 50px 30px;
+    margin-bottom: 15%;
+    margin-top: 13%;
+  }
+  .confirmationPage .section2 {
+    width: 800px;
+  }
+  .confirmationPage .section2 h3 {
+    font-family: barlow, sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #d4b666;
+    text-align: center;
+    margin-right: 8%;
+  }
+  .confirmationPage .section2 .paragraphs2 {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px 30px;
+    width: 750px;
+    margin-left: -1%;
+  }
+  ul.navbar-nav.mr-auto.nav-form {
+    margin-left: 2%;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  body,
+  html {
+    margin: 0;
+    padding: 0;
+  }
+  .section1 {
+    margin-left: -10%;
+  }
+  .section1 h2 {
+    margin-top: 20px;
+  }
+  .section1 .paragraphs {
+    width: 700px;
+  }
+  nav {
+    margin-left: 2%;
+  }
+  input[type=text],
+  input[type=email],
+  textarea,
+  select {
+    min-width: 650px;
+  }
+  #sidebar {
+    margin-top: -925px;
+    margin-left: 70%;
+  }
+  .end {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    margin-bottom: 2%;
+  }
+  .lower-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  hr {
+    margin-left: 30%;
+  }
+  footer {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .confirmationPage .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: auto;
+    max-width: 1000px;
+    margin-top: 100px;
+    border: 1px solid white;
+    -webkit-box-shadow: 3px 5px 8px 3px #dedede;
+            box-shadow: 3px 5px 8px 3px #dedede;
+    padding: 50px 20px;
+    margin-bottom: 15%;
+    margin-top: 10%;
+  }
+  .confirmationPage .section2 {
+    width: 900px;
+  }
+  .confirmationPage .section2 h3 {
+    font-family: barlow, sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #d4b666;
+    text-align: center;
+    margin-right: -5%;
+  }
+  .confirmationPage .section2 .paragraphs2 {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px 30px;
+    width: 750px;
+    margin-left: 10%;
+  }
+  ul.navbar-nav.mr-auto.nav-form {
+    margin-left: 1%;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  body,
+  html {
+    margin: 0;
+    padding: 0;
+  }
+  .section1 {
+    margin-left: 0%;
+  }
+  .section1 h2 {
+    margin-top: 10px;
+  }
+  .section1 .paragraphs {
+    width: 650px;
+  }
+  nav {
+    margin-left: 2%;
+  }
+  input[type=text],
+  input[type=email],
+  textarea,
+  select {
+    min-width: 620px;
+  }
+  #sidebar {
+    margin: 0;
+    margin-top: -990px;
+    margin-left: 71%;
+  }
+  .end {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    margin-bottom: 2%;
+  }
+  .lower-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  hr {
+    margin-left: 30%;
+  }
+  footer {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .confirmationPage .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: auto;
+    max-width: 1024px;
+    margin-top: 100px;
+    border: 1px solid white;
+    -webkit-box-shadow: 3px 5px 8px 3px #dedede;
+            box-shadow: 3px 5px 8px 3px #dedede;
+    padding: 50px 10px;
+    margin-bottom: 10%;
+    margin-top: 10%;
+  }
+  .confirmationPage .section2 {
+    width: 1000px;
+  }
+  .confirmationPage .section2 h3 {
+    font-family: barlow, sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 45px;
+    color: #d4b666;
+    text-align: center;
+    margin-right: 0%;
+  }
+  .confirmationPage .section2 .paragraphs2 {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px 30px;
+    width: 800px;
+    margin-left: 9%;
+  }
+  ul.navbar-nav.mr-auto.nav-form {
+    margin-left: 1%;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  body,
+  html {
+    margin: 0;
+    padding: 0;
+  }
+  .section1 {
+    margin-left: 0;
+  }
+  .section1 h2 {
+    margin-top: 10px;
+  }
+  .section1 .paragraphs {
+    width: 670px;
+  }
+  nav {
+    margin-left: 2%;
+  }
+  input[type=text],
+  input[type=email],
+  textarea,
+  select {
+    min-width: 650px;
+  }
+  #sidebar {
+    margin: 0;
+    margin-top: -1020px;
+    margin-left: 65%;
+  }
+  .end {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    margin-bottom: -2%;
+  }
+  .lower-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  hr {
+    margin-left: 30%;
+  }
+  footer {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .confirmationPage .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: auto;
+    max-width: 1024px;
+    margin-top: 100px;
+    border: 1px solid white;
+    -webkit-box-shadow: 3px 5px 8px 3px #dedede;
+            box-shadow: 3px 5px 8px 3px #dedede;
+    padding: 50px 10px;
+    margin-bottom: 7%;
+    margin-top: 5%;
+  }
+  .confirmationPage .section2 {
+    width: 1000px;
+  }
+  .confirmationPage .section2 h3 {
+    font-family: barlow, sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 45px;
+    color: #d4b666;
+    text-align: center;
+    margin-right: 0%;
+  }
+  .confirmationPage .section2 .paragraphs2 {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px 30px;
+    width: 800px;
+    margin-left: 9%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
