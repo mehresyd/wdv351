@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta keywords="Savanna, coffee house, cafe, coffee, contact, information">
+    <meta description="A website featuring savanna's coffee house contact information.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Savanna's Coffee</title>
+    <!--Sydney Mehre 04/18/2022-->
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: white;">
+                <a class="navbar-brand" href="index.html">Savanna's</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="events.html">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="top-b">
+        <img src="images/main-banner.jpg" height="270px" alt="banner with food images and savanna logo">
+        </div>
+        <div class="row">
+            <div class="section1">
+                <h2>Contact Us</h2>
+                <p>Offering both rejuvenation and reprieve from bustling MSU's campus life, Savanna's Coffee House is
+                    here
+                    to welcome you to our stylish funky yet chic designed cafe right in the heart of MSU.</p>
+                <p>We want you to enjoy every experience Savanna's Coffee House has to offer. If you would like to
+                    discuss a
+                    function, make a booking or just have a question, fill in the form below and we will be in touch
+                    within
+                    24 hours.</p>
+                <p>Reservations can also be made if you call the cafe!</p>
+                <div class="contact_us">
+                    <form method="post" action="form_response_basic.php">
+                        <fieldset>
+                            <div class="flex-form">
+                                <label for="firstName">First Name * </label>
+                                <input type="text" name="firstName" id="firstName">
+                            </div>
+                            <div class="flex-form">
+                                <label for="lastName">Last Name * </label>
+                                <input type="text" name="lastName" id="lastName">
+                            </div>
+                            <div class="flex-form">
+                                <label for="company">Company </label>
+                                <input type="text" name="company" id="company">
+                            </div>
+                            <div class="flex-form">
+                                <label for="email">E-mail *</label>
+                                <input type="email" name="email" id="email">
+                            </div>
+                            <div class="flex-form">
+                                <label for="mobile">Mobile *</label>
+                                <input type="text" name="mobile" id="mobile" placeholder="123-456-7890">
+                            </div>
+                            <div class="flex-form">
+                                <label for="message">How can we help?</label>
+                                <textarea name="inputMessage" id="inputMessage"></textarea>
+                            </div>
+                            <p>Subscribe</p>
+                            <div class="flex-radio">
+                                <div>
+                                    <input type="checkbox" name="subscribe" id="subscribe" value="subscribe" checked>
+                                    <label for="subscribe">Yes - sign me up to join Savanna's Coffee</label>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <div class="flex-buttons">
+                            <input type="submit" value="Submit">
+                            <input type="reset" value="Reset">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div id="sidebar">
+                <h5>Savanna's</h5>
+                <p>604 24th Street St. Paul, Minnesota</p>
+                <h5>Opening hours:</h5>
+                <ul>
+                    <li><u>Sunday:</u> 7:00am - 9:00pm</li>
+                    <li><u>Monday - Thursday:</u> 6:00am - 10:00pm</li>
+                    <li><u>Friday:</u> 6:00am - 11:00pm</li>
+                    <li><u>Saturday:</u> 6:30am - 11:00pm</li>
+                </ul>
+                <p><span class="functionline">Booking & Function enquiries</span></p>
+                <p>Call us at (702) 971-1154</p>
+            </div>
+            <!--closing sidebar-->
+        </div>
+        <!--closing row-->
+        <hr>
+        <div class="end">
+            <h3>Stop by Savanna's Coffee House Today and be one of the first</h3>
+            <h3>to hear about our special offers and events!</h3>
+            <a href="contact.html">Subscribe</a>
+            <div class="gotop">
+                <a href="#top">Go to Top</a>
+            </div>
+        </div>
+        <!--closing end section-->
+
+        <div class="lower-content">
+            <h2>Savanna's Coffee</h2>
+            <br>
+            <h5>702-971-1154 | 604 24th Street St.Paul, Minnesota</h5><br>
+            <div class="socials">
+                <a href="#"><img src="images/facebook.png" height="60px" alt="facebook logo link">
+                    <a href="#"><img src="images/instagram.png" height="60px" alt="instagram logo link">
+            </div>
+        </div>
+        <footer>
+            <p>Savanna's Coffee House | 2022</p>
+        </footer>
+    </div>
+    <!--closing container-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

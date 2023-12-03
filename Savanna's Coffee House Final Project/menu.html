@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta keywords="Savanna, coffee house, cafe, coffee, menu, items">
+    <meta description="A website featuring savanna's coffee house menu.">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .tabs {
+            width: 900px;
+            padding: 0 10px;
+            margin: 0 auto;
+            font-family: barlow, sans-serif;
+        }
+    </style>
+    <title>Savanna's Coffee</title>
+    <!--Sydney Mehre 04/18/2022-->
+</head>
+<div id="container">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: white;">
+            <a class="navbar-brand" href="index.html">Savanna's</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="events.html">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="top-b">
+        <img src="images/main-banner.jpg" height="270px" alt="Banner with food and savanna logo">
+    </div>
+    <div class="heading">
+        <h2>Menu</h2>
+    </div>
+    <!--tabs-->
+    <div class="tabs">
+        <div class="container my-5">
+            <nav>
+                <div class="nav nav-tabs" id="nav-tabs" role="tablist">
+                    <button class="nav-link" id="nav-coffee-tab" data-bs-toggle="tab" data-bs-target="#nav-coffee"
+                        type="button" role="tab" aria-controls="nav-coffee" aria-selected="true">Coffee &
+                        Beverages</button>
+
+                    <button class="nav-link" id="nav-bakery-tab" data-bs-toggle="tab" data-bs-target="#nav-bakery"
+                        type="button" role="tab" aria-controls="nav-bakery" aria-selected="false">Bakery &
+                        Desserts</button>
+
+                    <button class="nav-link" id="nav-soups-tab" data-bs-toggle="tab" data-bs-target="#nav-soups"
+                        type="button" role="tab" aria-controls="nav-soups" aria-selected="false">Soups &
+                        Sandwiches</button>
+
+                    <button class="nav-link" id="nav-wine-tab" data-bs-toggle="tab" data-bs-target="#nav-wine"
+                        type="button" role="tab" aria-controls="nav-wine" aria-selected="false">Wine & Beer</button>
+                </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+
+                <div class="tab-pane fade p-3 active" id="nav-coffee" role="tabpanel" aria-labelledby="nav-coffee-tab">
+                    <h3><strong>Coffee & Beverages</strong></h3>
+                    <p>Fresh Roasted Coffee................$3.65</p>
+                    <p>Mocha Latte.........................$4.15</p>
+                    <p>Hot Chocolate.......................$3.25</p>
+                    <p>Chai Tea............................$4.25</p>
+                    <p>Frappe..............................$3.95</p>
+                </div>
+                <div class="tab-pane fade p-3" id="nav-bakery" role="tabpanel" aria-labelledby="nav-bakery-tab">
+                    <h3><strong>Bakery & Desserts</strong></h3>
+                    <p>Bakery Case Items...................$2.00</p>
+                    <p>Dessert of the day..................$3.99</p>
+                    <p>Gelato..............................$4.00</p>
+                </div>
+                <div class="tab-pane fade p-3" id="nav-soups" role="tabpanel" aria-labelledby="nav-soups-tab">
+                    <h3><strong>Sandwiches</strong></h3>
+                    <p><strong>Grilled Vegetable Panini:</strong> <em>Tomato / onion / ucumber / romaine lettuce /
+                            sprouts / muenster
+                            cheese
+                            & basil pesto served grilled on multigrain panini bread (make it a wrap for FREE)</em> $6.99
+                    </p>
+                    <p><strong>East Street Chicken Salad:</strong> <em>chicken salad / swiss cheese / artisan leaf
+                            lettuce / ripe tomato & served on a croissant</em> $6.99</p>
+                    <p><strong>Black Russian Reuben:</strong> <em>Toasted black Russian bagel filled with pastrami /
+                            swiss cheese /
+                            sauerkraut / thousand island dressing</em> $6.99</p>
+                    <p><strong>Key City Ham Panini:</strong> <em>Ham / smoked gouda cheese / sliced apple / onion &
+                            sweet chutney /
+                            served
+                            grilled on multigrain panini bread</em> $6.99</p>
+                    <p><strong>Black Bean Burger:</strong> <em>Southwest black bean garden burger / cheddar cheese /
+                            lettuce /
+                            tomato / onion & southwest ranch dressing on a grilled ciabatta square</em> $6.99</p>
+                    <p><strong>Panini Italiano:</strong> <em>Fresh mozzarella / ripe tomatoes / basil pesto & balsamic
+                            glaze grilled on
+                            multigrain panini bread</em> $6.99</p>
+                    <p><strong>The Grilled Tuna Salad Panini:</strong> <em>House tuna salad / sprouts / cheddar cheese
+                            grilled on
+                            multigrain panini bread</em> $6.99</p>
+                    <h3><strong>Soups</strong></h3>
+                    <p><strong>Bowel:</strong> $4.99 Cup: $3.99</p>
+                    <p><strong>Savahana’s Signature Soup:</strong> <em>red pepper / gouda</em></p>
+                    <p><strong>Soup of the Day:</strong> <em>Always changing, timed for the season & great with salad
+                            and sandwiches</em>
+                    </p>
+                    <p><strong>Soup & Sandwich:</strong> <em>Choice of soup & half sandwich(no wraps, bagels or
+                            croissants as half
+                            sandwiches)</em> $7.29</p>
+                    <p><strong>Soup & Salad:</strong> <em>Choice of soup & any half salad</em> $7.29</p>
+                </div>
+                <div class="tab-pane fade p-3" id="nav-wine" role="tabpanel" aria-labelledby="nav-wine-tab">
+                    <h3><strong>Wine</strong></h3>
+                    <p>Chardonnay.........................$10.00</p>
+                    <p>Pinor Grigio.......................$10.00</p>
+                    <p>Merlot.............................$10.00</p>
+                    <p>Cabernet Sauvingnon................$10.00</p>
+                    <h3><strong>Beer</strong></h3>
+                    <p>Budwiser...........................$3.00</p>
+                    <p>Bud Light..........................$3.00</p>
+                    <p>Coors..............................$3.00</p>
+                    <p>Coors Light........................$3.00</p>
+                    <p>Blue Moon..........................$3.00</p>
+                    <p>Exile Ruthie.......................$3.00</p>
+                    <p>Firetrucker Tropical Burn..........$3.00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--closing tabs-->
+    <div class="page food-1">
+        <h2>Drinks</h2>
+        <img src="images/icons8-coffee-to-go-80.png" height="60px" alt="coffee cup">
+        <h5>Coffee & Beverages</h5>
+        <p>Fresh Roasted Coffee - $3.65</p>
+        <p>Mocha Latte - $4.15</p>
+        <p>Hot Chocolate - $3.25</p>
+        <p>Chai Tea - $4.25</p>
+        <p>Frappe - $3.95</p>
+        <h5>Wine</h5>
+        <p>Chardonnay - $10.00</p>
+        <p>Pinor Grigio - $10.00</p>
+        <p>Merlot - $10.00</p>
+        <p>Cabernet Sauvingnon - $10.00</p>
+        <h5>Beer</h5>
+        <p>Budwiser - $3.00</p>
+        <p>Bud Light - $3.00</p>
+        <p>Coors - $3.00</p>
+        <p>Coors Light - $3.00</p>
+        <p>Blue Moon - $3.00</p>
+        <p>Exile Ruthie - $3.00</p>
+        <p>Firetrucker Tropical Burn - $3.00</p>
+    </div>
+    <div class="page food-2">
+        <h2>Eats</h2>
+        <h5>Sandwiches</h5>
+        <h6>Grilled Vegetable Panini $6.99</h6>
+        <p>Tomato, onion, cucumber, romaine lettuce, sprouts, muenster cheese
+            & basil pesto served grilled on multigrain panini bread (make it a wrap for FREE)</p>
+        <h6>East Street Chicken Salad $6.99</h6>
+        <p>Chicken salad, swiss cheese, artisan leaf
+            lettuce, ripe tomato & served on a croissant</p>
+        <h6>Black Russian Reuben $6.99</h6>
+        <p>Toasted black Russian bagel filled with pastrami, swiss cheese,
+            sauerkraut, thousand island dressing</p>
+        <h6>Key City Ham Panini $6.99</h6>
+        <p>Ham, smoked gouda cheese, sliced apple, onion & sweet chutney, served
+            grilled on multigrain panini bread</p>
+        <h6>Black Bean Burger $6.99</h6>
+        <p>Southwest black bean garden burger, cheddar cheese, lettuce,
+            tomato, onion & southwest ranch dressing on a grilled ciabatta square</p>
+        <h6>Panini Italiano $6.99</h6>
+        <p>Fresh mozzarella, ripe tomatoes, basil pesto & balsamic glaze grilled on
+            multigrain panini bread</p>
+        <h6>The Grilled Tuna Salad Panini $6.99</h6>
+        <p>House tuna salad, sprouts, cheddar cheese grilled on
+            multigrain panini bread</p>
+        <h5>Soups</h5>
+        <h6>Savahana’s Signature Soup - Bowel: $4.99 Cup: $3.99</h6>
+        <p>Featuring red pepper, gouda</p>
+        <h6>Soup of the Day - Bowel: $4.99 Cup: $3.99</h6>
+        <p>Always changing, timed for the season & great with salad and sandwiches</p>
+        <h6>Soup & Sandwich $.7.29</h6>
+        <p>Choice of soup & half sandwich(no wraps, bagels or croissants as half sandwiches)</p>
+        <h6>Soup & Salad $7.29</h6>
+        <p>Choice of soup & any half salad</p>
+    </div>
+    <div class="page food-3">
+        <h2>Treats</h2>
+        <img src="images/icons8-cupcake-100.png" height="60px" alt="cupcake icon with cherry">
+        <h5>Desserts</h5>
+        <p>Bakery Case Items - $2.00</p>
+        <p>Dessert of the day - $3.99</p>
+        <p>Gelato - $4.00</p>
+    </div>
+    <hr>
+    <div class="end">
+        <h3>Stop by Savanna's Coffee House Today and be one of the first</h3>
+        <h3>to hear about our special offers and events!</h3>
+        <a href="contact.html">Subscribe</a>
+        <div class="gotop">
+            <a href="#top">Go to Top</a>
+        </div>
+    </div>
+    <!--closing end section-->
+
+    <div class="lower-content">
+        <h2>Savanna's Coffee</h2>
+        <br>
+        <h5>702-971-1154 | 604 24th Street St.Paul, Minnesota</h5><br>
+        <div class="socials">
+            <a href="#"><img src="images/facebook.png" height="60px" alt="facebook logo link">
+                <a href="#"><img src="images/instagram.png" height="60px" alt="instagram logo link">
+        </div>
+    </div>
+    <footer>
+    <p>Savanna's Coffee House | 2022</p> 
+    </footer>
+</div>
+<!--closing container-->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
