@@ -62,5 +62,5 @@ jobs:
         with:
           app-name: 'wdv351'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B7BFF7466B8F476191A43CCC36D6986D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D04FA2DCE83C434E92FA47AF2BEE3AE7 }}
           package: .
